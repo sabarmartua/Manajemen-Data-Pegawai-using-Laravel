@@ -1,0 +1,132 @@
+/* Body */
+body {
+    background-color: #f1f3f6; /* soft grey */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #3396D3, #3396D3);
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #ffeaa7 !important;
+}
+
+/* Tabel */
+.table {
+    background-color: #ffffffcc; /* soft white with opacity */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+
+.table:hover {
+    transform: translateY(-2px);
+}
+
+.table th {
+    background-color: #3396D3; /* soft purple */
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Tombol */
+.btn-primary {
+    background-color: #3396D3;
+    border-color: #3396D3;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #BBDCE5;
+    border-color: #BBDCE5;
+    color: #fff;
+}
+
+/* Tombol secondary */
+.btn-secondary {
+    background-color: #b2bec3;
+    border-color: #b2bec3;
+    color: #2d3436;
+}
+
+.btn-secondary:hover {
+    background-color: #dfe6e9;
+    color: #2d3436;
+}
+
+/* Thumbnail Foto */
+.img-thumbnail {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 2px solid #dfe6e9;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.1);
+    border-color: #3396D3;
+}
+
+/* Responsive table scroll */
+.table-responsive {
+    overflow-x: auto;
+    margin-bottom: 1rem;
+}
+
+/* Form input */
+.form-control, .form-select {
+    border-radius: 8px;
+    padding: 8px 12px;
+    border: 1px solid #dfe6e9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #3396D3;
+    box-shadow: 0 0 6px rgba(108, 92, 231, 0.3);
+}
+
+/* Alert */
+.alert {
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Pagination */
+.pagination .page-link {
+    border-radius: 8px;
+    color: #3396D3;
+    border: 1px solid #dfe6e9;
+}
+
+.pagination .page-link:hover {
+    background-color: #BBDCE5;
+    color: #fff;
+    border-color: #BBDCE5;
+}
+
+.pagination .active .page-link {
+    background-color: #3396D3;
+    border-color: #3396D3;
+    color: #fff;
+}
